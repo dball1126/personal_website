@@ -2445,3 +2445,13 @@ input, select, textarea {
 					}
 
 	}
+
+
+	.project-links{
+		text-decoration: none;
+		color: black;
+		font-weight: 400;
+		font-size: 18px;
+
+	}
+
