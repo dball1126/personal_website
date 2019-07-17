@@ -190,7 +190,7 @@
 								<h3>Features</h3>
 								<ul style="text-align: left">
 									<li>
-										Utilized Google Maps JavaScript API in a search component to render all businesses via their coordinates that matched
+										Utilized Google Maps Static API in a search component to render all businesses via their coordinates that matched
 										the results found in the database.
 									</li>
 									<li>
@@ -219,7 +219,6 @@
 									<li>
 										Created collision detection where ‘Saucers,’ were considered destroyed if either their height or width disappeared from
 										the display or their coordinates were larger than the width of the Canvas.
-										
 									</li>
 									<li>
 										Used CSS3 Animations to render content by using keyframes and text shadow effects to continuously alter the appearance
@@ -240,7 +239,7 @@
 									|
 									<a href="https://github.com/dball1126/rumordom" class="project-links">GitHub</a></h3>
 								<p>A web application where you can leave experiences about businesses. Built with Rails, Ruby,
-									HTML5, and CSS.</br>
+									HTML5, and SCSS.</br>
 								</p>
 								<video controls autoplay width="100%" height="100%">
 									<source src="https://yap-dev.s3.amazonaws.com/Screen+Recording+2019-07-17+at+12.04.31+AM.mov">
@@ -248,17 +247,18 @@
 								<h3>Features</h3>
 								<ul style="text-align: left">
 									<li>
-										Utilized Google Maps JavaScript API in a search component to render all businesses via their coordinates
-										that matched
-										the results found in the database.
+										Utilized the Geocoder gem to render businesses on a Google Maps Static API when a new business is added
+										to the database.
 									</li>
 									<li>
-										Implemented user authentication using BCrypt and controlled which components would be rendered and
-										accessible depending
-										on who’s logged in.
+										Implemented user authentication using BCrypt and controlled which pages would be accessible depending on
+										who's logged in.
 									</li>
 									<li>
-										Incorporated Active Storage to remotely store photos when a new user posts a review for a business.
+										Incorporated Action Mailer do authenticate new users via an email or to reset a users password if they forgot.
+									</li>
+									<li>
+										Implemented media queries to enure the device is able to work on a desktop, tablet, or mobile device.
 									</li>
 								</ul>
 							</section>
