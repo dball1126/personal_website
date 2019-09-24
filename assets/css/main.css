@@ -2458,3 +2458,7 @@ input, select, textarea {
 
 	}
 
+.resume-bio-link {
+	color: blue;
+	text-decoration: none;
+}
